@@ -1,0 +1,27 @@
+{
+  "name": "quem_me_deve",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node build/index.js",
+    "dev": "tsc -w",
+    "lint": "npx eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.11.0",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^9.11.0",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.6.0"
+  },
+  "dependencies": {
+    "@types/qrcode-terminal": "^0.12.2",
+    "dotenv": "^16.4.5",
+    "kafkajs": "^2.2.4",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}
